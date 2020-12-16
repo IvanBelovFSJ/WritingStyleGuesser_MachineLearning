@@ -117,4 +117,4 @@ labels = ['prose','prose','prose','prose','prose','prose', 'science',
           'science', 'science', 'novel', 'science']
 clf = tree.DecisionTreeClassifier()
 clf = clf.fit(features, labels)
-print(clf.predict([[48, 1, 1, 1, 0, 1, 2005]])) # Star Wars - Star Pilot, Laura Buller, ISBN 978-0-7566-1161-3
+print(clf.predict([[48, 1, 1, 1, 0, 1, 2005]])) # Star Wars - Star Pilot, Laura Buller, ISBN 978-0-7566-1161-3, novel
